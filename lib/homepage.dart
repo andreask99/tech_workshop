@@ -24,9 +24,6 @@ class _MyHomePageState extends State<MyHomePage> {
   TextEditingController myTweet = TextEditingController();
   String tweet = "";
 
-  final Stream<QuerySnapshot> _tweetStream =
-      FirebaseFirestore.instance.collection('tweets').orderBy("time", descending: true).snapshots();
-
   final db = FirebaseFirestore.instance;
 
   void showMyTweet() {
@@ -98,8 +95,10 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Widget showTweets() {
+    final Stream<QuerySnapshot> tweetStream =
+    db.collection('tweets').orderBy("time", descending: true).snapshots();
     return StreamBuilder<QuerySnapshot>(
-      stream: _tweetStream,
+      stream: tweetStream,
       builder: (BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot) {
         if (snapshot.hasError) {
           return const Text('Something went wrong');
