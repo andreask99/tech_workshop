@@ -92,7 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: showMyTweet,
         tooltip: 'Send Tweet',
-        child: const Icon(Icons.add),
+        child: const Icon(Icons.send),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
