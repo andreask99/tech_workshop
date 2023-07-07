@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "18880256294",
+    "project_id": "tech-dba2c",
+    "storage_bucket": "tech-dba2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18880256294:android:74d12a1a808c45886d09e7",
+        "android_client_info": {
+          "package_name": "com.example.tech_workshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18880256294-34u4pqa13e6vk4bdm6onfbn8eukbvvbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBczyPVveHbTSxhUdJKOxcJWkKwHgJQIUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18880256294-34u4pqa13e6vk4bdm6onfbn8eukbvvbk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "18880256294-bk0ishg4quu8j1d33fj32ppqj6i2ofgu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.techWorkshop"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18880256294:android:851c1a99fd5338ed6d09e7",
+        "android_client_info": {
+          "package_name": "com.tech_workshop.tweety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18880256294-34u4pqa13e6vk4bdm6onfbn8eukbvvbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBczyPVveHbTSxhUdJKOxcJWkKwHgJQIUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18880256294-34u4pqa13e6vk4bdm6onfbn8eukbvvbk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "18880256294-bk0ishg4quu8j1d33fj32ppqj6i2ofgu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.techWorkshop"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
