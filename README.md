@@ -1,6 +1,6 @@
-# tech_workshop
+# tech_workshop - Tweety, a very basic app to post Tweets
 
-A new Flutter project.
+Demo app for an introductory tech workshop
 
 ## Getting Started
 
